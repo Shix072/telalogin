@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eee;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-home {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+input {
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.btn-secundario {
+    background: #6c757d;
+}
+
+.btn-secundario:hover {
+    background: #545b62;
+}
+
+.detalhes-treino {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.titulo-treino {
+    margin: 10px 0 5px 0;
+    font-size: 15px;
+}
+
+.lista-exercicios {
+    padding-left: 20px;
+    margin: 0;
+    line-height: 1.5;
+}
